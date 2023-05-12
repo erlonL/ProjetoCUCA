@@ -18,9 +18,18 @@ Seus resultados são feitos por algoritmo, ou seja, terão maior qualidade, maio
 
 ### Como funciona o Sistema CUCA?
 
-
+- Recebe as informações de cada turma, como o número de alunos, o horário da aula e o tipo de sala necessária (por exemplo, sala de aula, laboratório, auditório, etc).
+- Lê as informações das salas disponíveis, como o bloco, número da sala, capacidade e tipo.
+- Filtra as salas que atendem aos requisitos da turma em relação ao tipo de sala, horário e capacidade necessária.
+- Ordena as salas disponíveis de acordo com a proximidade da turma e a capacidade da sala.
+- Atribui a sala mais adequada para a turma, levando em consideração a disponibilidade da sala naquele horário.
+- Registra a alocação da sala na tabela de horários da turma e atualiza a disponibilidade da sala.
 
 ### Funções necessárias
-
+- Ler salas
+- Filtrar salas
+- Comparar salas
+- Atribuir sala
+- Registrar horario
 
 [![Run on Repl.it](https://replit.com/badge/github/erlonL/ProjetoCUCA)](https://replit.com/new/github/erlonL/ProjetoCUCA)
