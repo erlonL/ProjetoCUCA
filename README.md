@@ -2,11 +2,11 @@
 
 ## Integrantes
 
-Erlon Lacerda Avelino (20220071286)
-Maria Eduarda Bandeira Hora de Vasconcelos (20220007230)
-Thiago Rodrigues Cruz Justino (20220007276)
-Gisele de Freitas Menezes (20220055765)
-Daniele Vitoria Morais Silva (20220007392)
+- Erlon Lacerda Avelino (20220071286)
+- Maria Eduarda Bandeira Hora de Vasconcelos (20220007230)
+- Thiago Rodrigues Cruz Justino (20220007276)
+- Gisele de Freitas Menezes (20220055765)
+- Daniele Vitoria Morais Silva (20220007392)
 
 ## O que é o Projeto CUCA?
 
