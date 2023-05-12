@@ -16,4 +16,11 @@ Classroom Utilization and Capacity Allocation tem como base o sistema SACI da UF
 
 Seus resultados são feitos por algoritmo, ou seja, terão maior qualidade, maior performance e não serão baseados na experiência do decisor. 
 
+### Como funciona o Sistema CUCA?
+
+
+
+### Funções necessárias
+
+
 [![Run on Repl.it](https://replit.com/badge/github/erlonL/ProjetoCUCA)](https://replit.com/new/github/erlonL/ProjetoCUCA)
