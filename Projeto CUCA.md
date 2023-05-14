@@ -6,7 +6,7 @@ O projeto CUCA conta com:
 Para cada dia da semana diferente, uma nova iteração do algoritmo teria que ser rodada, pois as solicitações seriam diferentes.
 
 ## Definição das Estruturas
-``enum`` TipoSala:
+### ``enum`` TipoSala:
 ```c 
 typedef enum{
 	AULA,
@@ -16,7 +16,7 @@ typedef enum{
 - 0: (não é apenas SALA pois daria conflito com outras estruturas) Sala de aula comum, com carteiras, projetor e quadro branco;
 - 1: Laboratório com computadores.
 
-`enum` TipoBloco:
+### `enum` TipoBloco:
 ```c
 typedef enum{
 	CI,
@@ -28,7 +28,7 @@ typedef enum{
 - 1: LIEPE - Laboratório Interdisciplinar de Ensino, Pesquisa e Extensão;
 - 2: CTDR - Centro de Tecnologia e Desenvolvimento Regional.
 
-`struct` Turma:
+### `struct` Turma:
 ```c
 typedef struct {
 	int id_turma;
@@ -42,7 +42,7 @@ typedef struct {
 - `char horario[10]` - "8h-10h" período de horário formatado em string; 
 - `TipoSala tipo_sala`  - Tipo da sala solicitada pela turma (0: sala, 1: lab).
 
-`struct` Sala:
+### `struct` Sala:
 ```c
 typedef struct {
 	TipoBloco bloco;
