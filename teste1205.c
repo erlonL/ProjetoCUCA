@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Estruturas de dados das turmas e salas.
+// Definir as estruturas de dados das turmas e salas
 typedef enum{
     AULA,
     LABORATORIO
@@ -23,9 +23,9 @@ typedef struct {
 
 typedef struct {
     TipoBloco bloco;
-    TipoSala tipo;
     int sala;
     int capacidade;
+    TipoSala tipo;
     char horario[10];
 } Sala;
 
@@ -88,13 +88,13 @@ int main() {
     // Ler as informações das salas disponíveis
     Sala salas[] = 
     {
-        {CTDR, AULA, 105, 28, "8h-10h"},
-        {CI, LABORATORIO, 108, 35, "10h-12h"},
-        {CI, LABORATORIO, 107, 16, "14h-16h"},
-        {CI, AULA, 104, 75, "16h-18h"},
-        {LIEPE, LABORATORIO, 103, 23, "16h-18h"},
-        {CTDR, LABORATORIO, 106, 12, "8h-10h"},
-        {CI, LABORATORIO, 107, 16, "14h-16h"},
+        {CTDR, 105, 28, AULA, "8h-10h"},
+        {CI, 108, 35, LABORATORIO, "10h-12h"},
+        {CI, 107, 16, LABORATORIO, "14h-16h"},
+        {CI, 104, 75, AULA, "16h-18h"},
+        {LIEPE, 103, 23, LABORATORIO, "16h-18h"},
+        {CTDR, 106, 12, LABORATORIO, "8h-10h"},
+        {CI, 107, 16, LABORATORIO, "14h-16h"},
     };
     int n_salas = sizeof(salas) / sizeof(Sala);
 
