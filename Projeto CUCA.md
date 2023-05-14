@@ -13,8 +13,8 @@ typedef enum{
 	LABORATORIO
 } TipoSala;
 ```
-0: (não é apenas SALA pois daria conflito com outras estruturas) Sala de aula comum, com carteiras, projetor e quadro branco;
-1: Laboratório com computadores.
+- 0: (não é apenas SALA pois daria conflito com outras estruturas) Sala de aula comum, com carteiras, projetor e quadro branco;
+- 1: Laboratório com computadores.
 
 `enum` TipoBloco:
 ```c
@@ -24,9 +24,9 @@ typedef enum{
 	CTDR
 } TipoBloco;
 ```
-0: CI - Centro de Informática;
-1: LIEPE - Laboratório Interdisciplinar de Ensino, Pesquisa e Extensão;
-3: CTDR - Centro de Tecnologia e Desenvolvimento Regional.
+- 0: CI - Centro de Informática;
+- 1: LIEPE - Laboratório Interdisciplinar de Ensino, Pesquisa e Extensão;
+- 2: CTDR - Centro de Tecnologia e Desenvolvimento Regional.
 
 `struct` Turma:
 ```c
@@ -37,10 +37,10 @@ typedef struct {
 	TipoSala tipo_sala;
 } Turma;
 ```
-`int id_turma` - id da turma (servirá para identificar a turma alocada);
-`int numero_alunos` - número de alunos da turma (importante para alocação em salas que tenham capacidade);
-`char horario[10]` - "8h-10h" período de horário formatado em string; 
-`TipoSala tipo_sala`  - Tipo da sala solicitada pela turma (0: sala, 1: lab).
+- `int id_turma` - id da turma (servirá para identificar a turma alocada);
+- `int numero_alunos` - número de alunos da turma (importante para alocação em salas que tenham capacidade);
+- `char horario[10]` - "8h-10h" período de horário formatado em string; 
+- `TipoSala tipo_sala`  - Tipo da sala solicitada pela turma (0: sala, 1: lab).
 
 `struct` Sala:
 ```c
@@ -52,15 +52,15 @@ typedef struct {
 	char horario[10];
 } Sala;
 ```
-`TipoBloco bloco` - (CI, LIEPE, CTDR) localização da Sala
-`TipoSala tipo` - (AULA, LABORATORIO) tipo da sala
-`int sala` - número da sala
-`int capacidade` - capacidade da sala
-`char horario[10]` - horários disponíveis da sala
+- `TipoBloco bloco` - (CI, LIEPE, CTDR) localização da Sala
+- `TipoSala tipo` - (AULA, LABORATORIO) tipo da sala
+- `int sala` - número da sala
+- `int capacidade` - capacidade da sala
+- `char horario[10]` - horários disponíveis da sala
 
 ## Definição das Funções
 
-Filtrar Salas
+### Filtrar Salas
 ```c
 Sala* filtrar_salas(Turma turma, Sala* salas, int n_salas, int* n_salas_filtradas) 
 {
@@ -77,4 +77,4 @@ Sala* filtrar_salas(Turma turma, Sala* salas, int n_salas, int* n_salas_filtrada
     }
     return salas_filtradas;
 ```
-Filtra as salas disponíveis de acordo com as solicitações das turmas.
+- Filtra as salas disponíveis de acordo com as solicitações das turmas.
