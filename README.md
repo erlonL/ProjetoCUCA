@@ -10,7 +10,7 @@
 
 ## O que é o Projeto CUCA?
 
-Classroom Utilization and Capacity Allocation tem como base o sistema SACI da UFPB, é um **algoritmo de otimização** feito para **alocação de salas** e aulas para turmas, a fim de diminuir intercorrências e comportar a demanda do Centro.
+Classroom Utilization and Capacity Allocation tem como base o sistema SACI da UFPB, é baseado em um **algoritmo de otimização** feito para **alocação de salas** e aulas para turmas, a fim de diminuir intercorrências e comportar a demanda do Centro.
 
 ### Qual a vantagem da alocação automática de salas?
 
