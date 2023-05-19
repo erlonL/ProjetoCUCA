@@ -76,5 +76,56 @@ Sala* filtrar_salas(Turma turma, Sala* salas, int n_salas, int* n_salas_filtrada
         }
     }
     return salas_filtradas;
+}
 ```
 - Filtra as salas disponíveis de acordo com as solicitações das turmas.
+
+### Comparar Salas
+```c
+int comparar_salas(const void* a, const void* b) {
+    Sala* sala_a = (Sala*) a;
+    Sala* sala_b = (Sala*) b;
+    int diferenca_bloco = abs(sala_a->bloco - sala_b->bloco) * 100;
+    int diferenca_capacidade = sala_b->capacidade - sala_a->capacidade;
+    return diferenca_bloco + diferenca_capacidade;
+}
+```
+- Compara uma sala com a outra e retorna um inteiro que significa a diferença de bloco e capacidade. Serve para manter uma ordem de classificação para as salas.
+
+### Ordenar Salas
+```c
+void ordenar_salas(Turma turma, Sala* salas, int n_salas) {
+	qsort(salas, n_salas, sizeof(Sala), comparar_salas);
+}
+```
+- Ordena as salas utilizando da função de comparar salas, utiliza de um ponteiro para o array de salas, o número de elementos no array, o tamanho em bytes de cada elemento do array e a função comparar salas
+
+### Atribuir sala
+```c
+Sala atribuir_sala(Turma turma, Sala* salas, int n_salas) {
+    for (int i = 0; i < n_salas; i++) {
+        if (strcmp(salas[i].horario, turma.horario) == 0) {
+            return salas[i];
+        }
+    }
+    Sala sala_vazia = {0, 0, 0, 0, ""};
+    return sala_vazia;
+}
+```
+- Percorre o array de salas filtradas comparando o horário disponível para a sala, com o horário requisitado pela turma. Se os horário baterem, a sala será atribuída à turma.
+
+### Atribuir sala 2
+```c
+Sala atribuir_sala(Turma turma, Sala* salas, int n_salas) 
+{
+    for (int i = 0; i < n_salas; i++) 
+    {
+        if ((strcmp(salas[i].horario, turma.horario) == 0) && (turma.numero_alunos <= salas[i].capacidade)) 
+        {
+			return salas[i];  // Sala alocada com sucesso
+        }
+    }
+    Sala sala_vazia = {0, 0, 0, 0, ""};
+    return sala_vazia;  // Sala não encontrada
+}
+```
