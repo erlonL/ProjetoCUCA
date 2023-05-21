@@ -1,0 +1,24 @@
+Bloco,Sala,Tipo,Capacidade
+CI,102,Sala,57 
+LIEPE,04,Sala,69 
+CI,104,Sala,32 
+CI,103,Sala,55 
+LIEPE,07,Sala,65 
+CI,105,Laboratório,36 
+CI,308,Sala,29 
+CTDR,C108,Sala,90 
+CI,306,Sala,27 
+T,07,Laboratório,57 
+CI,107,Sala,30 
+CI,101,Laboratório,37 
+CI,309,Laboratório,15 
+LIEPE,05-06,Sala,70 
+CI,109,Sala,27 
+CI,Auditório,Sala,60 
+CI,304,Sala,70 
+LIEPE,Lab Hardware,Lab Hardware,36 
+CI,106,Laboratório,51 
+CI,310,Laboratório,15 
+CI,307,Sala,29 
+CI,311,Sala,30 
+SB,01,Sala,70 
