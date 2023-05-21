@@ -1,0 +1,30 @@
+Explicação do código:
+Inicialmente, criam-se structs para armazenar as informações das salas e das turmas.
+Descrição das variáveis de cada struct:
+Sala:
+Bloco_saida = armazena os blocos de cada sala(CI,CTDR,LIEPE ou SB);
+Tipo_sala = armazena o tipo de cada sala(laborátorio,sala,etc);
+vaga = variável criada para armazenar os horários de cada sala, sendo no máximo 3 horários destintos;
+capacidade = armazena o número de assentos da sala;
+
+Turma:
+turma = armazena número da turma;
+num_alunos = aramazena o número de alunos matriculados;
+codigo = armazena o código referente a cada turma;
+disciplina = armazena o nome da disciplina;
+horario = armazena o horario e dia das aulas da turma;
+tipo = armazena a preferência por tipo de sala(laborátorio,sala,etc);
+bloco_turma = armazena a preferência de bloco da turma(CI,CTDR,LIEPE ou SB)
+turmas_alocadas = variável criada para armazenar as turmas que já foram alocadas.
+
+Definidas as structs, existem as variáveis e ponteiros:
+*resposta = ponteiro que aponta para o arquivo das resposta;
+*arquivo1 = ponteiro que aponta para o arquivo das turmas;
+salas = array do tipo sala;
+turmas = array do tipo turma;
+count,i,j,k,l = variáveis inteiras para manipular indices por meio das estruturas for e while
+*p,*p2 = ponteiros para as linhas;
+linha,linha2 = recebem cada linha;
+
+Definidas todas as variáveis usadas,vamos ao código:
+Por meio do While é armazenado cada informação da turma nas váriaveis dentro do array turmas.De forma análoga,armazena-se as informações no array salas.Depois de armazenar todas as informações nos arrays, abre-se o arquivo, no qual será escrito o resultado.Por meio da estrutura for, cria-se uma lógica na qual se o número de alunos matriculados for igual a capacidade da sala inicia-se outro for.Nesse novo for é analisado se há horário disponível, se tiver horário dispónivel, é colocado o horário na variável turmas_alocadas e "marcado" aquele espaço.Por fim,é colocado cada informação no arquivo Resultado.  
