@@ -1,5 +1,7 @@
 # ProjetoCUCA
 
+<img src="media/capa-cuca-full.jpg" alt="Capa do Projeto CUCA">
+
 ## Integrantes
 
 - Erlon Lacerda Avelino (20220071286)
