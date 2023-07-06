@@ -1,0 +1,7 @@
+.vscode/
+main/.vscode/
+main/*
+main/!*.c
+main/!*.csv
+Scraping/.ipynb_checkpoints/
+test.html

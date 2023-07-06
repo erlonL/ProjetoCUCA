@@ -1,0 +1,41 @@
+id_sala,bloco,sala,capacidade,tipo,horario
+10,T,07,57,Laboratório,24M23
+14,LIEPE,05-06,70,Sala,24M23
+19,CI,106,51,Laboratório,24M23
+8,CTDR,C108,90,Sala,24M45
+10,T,07,57,Laboratório,24M45
+20,CI,310,15,Laboratório,24M45
+23,SB,01,70,Sala,24M45
+8,CTDR,C108,90,Sala,24T23
+11,CI,107,30,Sala,24T23
+13,CI,309,15,Laboratório,24T23
+14,LIEPE,05-06,70,Sala,24T23
+17,CI,304,70,Sala,24T23
+18,LIEPE,Lab Hardware,36,Laboratório,24T23
+20,CI,310,15,Laboratório,24T23
+21,CI,307,29,Sala,24T23
+3,CI,104,32,Sala,24T45
+6,CI,105,36,Laboratório,24T45
+7,CI,308,29,Sala,24T45
+9,CI,306,27,Sala,24T45
+11,CI,107,30,Sala,24T45
+13,CI,309,15,Laboratório,24T45
+14,LIEPE,05-06,70,Sala,24T45
+15,CI,109,27,Sala,24T45
+18,LIEPE,Lab Hardware,36,Laboratório,24T45
+19,CI,106,51,Laboratório,24T45
+21,CI,307,29,Sala,24T45
+23,SB,01,70,Sala,24T45
+3,CI,104,32,Sala,35M23
+7,CI,308,29,Sala,35M23
+10,T,07,57,Laboratório,35M23
+12,CI,101,37,Laboratório,35M23
+13,CI,309,15,Laboratório,35M23
+18,LIEPE,Lab Hardware,36,Laboratório,35M23
+20,CI,310,15,Laboratório,35M23
+21,CI,307,29,Sala,35M23
+23,SB,01,70,Sala,35M23
+10,T,07,57,Laboratório,35M45
+11,CI,107,30,Sala,35M45
+12,CI,101,37,Laboratório,35M45
+19,CI,106,51,Laboratório,35M45

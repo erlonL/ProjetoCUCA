@@ -1,0 +1,4169 @@
+{
+	"solution": [
+		{
+			"id": 1104,
+			"bloco": "CI",
+			"nome": "102",
+			"capacidade": 57,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5341,
+					"codigo": "1107131",
+					"nome": "PESQUISA OPERACIONAL",
+					"turma": "1",
+					"docente": "ANAND SUBRAMANIAN",
+					"departamento": "PPG-I",
+					"horario": "6T456 6N1",
+					"alunos": "3",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5342,
+					"codigo": "GDSCO0046",
+					"nome": " FÍSICA EXPERIMENTAL PARA COMPUTAÇÃO ",
+					"turma": "3",
+					"docente": "JAIRO ROCHA DE FARIA",
+					"departamento": "CI-DSC",
+					"horario": "5T23",
+					"alunos": "40",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5343,
+					"codigo": "1107201",
+					"nome": " METODOLOGIA DO TRABALHO CIENTIFICO ",
+					"turma": "2",
+					"docente": "THAIS GAUDENCIO DO REGO",
+					"departamento": "CI-DI",
+					"horario": "3T456",
+					"alunos": "57",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5344,
+					"codigo": "1204156",
+					"nome": " SISTEMA DE INFORMAÇÃO E DECISÃO ",
+					"turma": "2",
+					"docente": "PEDRO JACOME DE MOURA JUNIOR",
+					"departamento": "CCSA-DA",
+					"horario": "24M45",
+					"alunos": "18",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5345,
+					"codigo": "1204115",
+					"nome": " ADMINISTRAÇÃO DE EMPRESAS ",
+					"turma": "4",
+					"docente": "JORGE DE OLIVEIRA GOMES",
+					"departamento": "CCSA-DA",
+					"horario": "5M1  24T45",
+					"alunos": "23",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5346,
+					"codigo": "1108183",
+					"nome": "MODELOS PROBABILÍSTICOS PARA A COMPUTAÇÃO",
+					"turma": "1",
+					"docente": "RONEI MARCOS DE MORAES",
+					"departamento": "CI-DI",
+					"horario": "35M23",
+					"alunos": "43",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5347,
+					"codigo": "1103177",
+					"nome": " CÁLCULO DIFERENCIAL E INTEGRAL I ",
+					"turma": "14",
+					"docente": "JORGE COSTA DUARTE FILHO",
+					"departamento": "CCEN-DM",
+					"horario": "24M23",
+					"alunos": "50",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5348,
+					"codigo": "1103179",
+					"nome": " INTRODUÇÃO À ÁLGEBRA LINEAR ",
+					"turma": "12",
+					"docente": "EDSON DE FIGUEIREDO LIMA JUNIOR",
+					"departamento": "CCEN-DM",
+					"horario": "35M45",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5349,
+					"codigo": "1107170/GDCOC0106",
+					"nome": "TOPICOS ESPEC EM COMPUTACAO / EMPREENDEDORISMO",
+					"turma": "1",
+					"docente": "ALISSON VASCONCELOS DE BRITO",
+					"departamento": "CI-DI",
+					"horario": "6M2345",
+					"alunos": "30",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5350,
+					"codigo": "1107191",
+					"nome": " INTRODUCAO A INTELIGENCIA ARTIFICIAL ",
+					"turma": "2",
+					"docente": "THAIS GAUDENCIO DO REGO",
+					"departamento": "CI-DI",
+					"horario": "24T23",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				},
+				{
+					"id": 5351,
+					"codigo": "GDCOC0095",
+					"nome": " ANÁLISE MULTIVARIADA E APRENDIZAGEM NÃO SUPERVISIONADO ",
+					"turma": "1",
+					"docente": "SERGIO DE CARVALHO BEZERRA",
+					"departamento": "CI-DCC",
+					"horario": "3T23",
+					"alunos": "7",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 102"
+				}
+			]
+		},
+		{
+			"id": 1105,
+			"bloco": "LIEPE",
+			"nome": "04",
+			"capacidade": 69,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5352,
+					"codigo": "GDSCO0062",
+					"nome": " REDES DE COMPUTADORES I ",
+					"turma": "1",
+					"docente": "JOSILENE AIRES MOREIRA",
+					"departamento": "CI-DSC",
+					"horario": "35M23",
+					"alunos": "56",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 04"
+				},
+				{
+					"id": 5353,
+					"codigo": "1107186",
+					"nome": " ESTRUTURA DE DADOS ",
+					"turma": "2",
+					"docente": "TIAGO MARITAN UGULINO DE ARAUJO",
+					"departamento": "CI-DI",
+					"horario": "24T23",
+					"alunos": "48",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 04"
+				},
+				{
+					"id": 5354,
+					"codigo": "1103118",
+					"nome": " CÁLCULO VETORIAL E GEOMETRIA ANALÍTICA ",
+					"turma": "15",
+					"docente": "CARLOS BOCKER NETO",
+					"departamento": "CCEN-DM",
+					"horario": "35T23",
+					"alunos": "53",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 04"
+				},
+				{
+					"id": 5355,
+					"codigo": "1103177",
+					"nome": " CÁLCULO DIFERENCIAL E INTEGRAL I ",
+					"turma": "15",
+					"docente": "ISABELLA SILVA DUARTE",
+					"departamento": "CCEN-DM",
+					"horario": "24M23",
+					"alunos": "45",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 04"
+				},
+				{
+					"id": 5356,
+					"codigo": "1103179",
+					"nome": " INTRODUÇÃO À ÁLGEBRA LINEAR ",
+					"turma": "13",
+					"docente": "EDSON DE FIGUEIREDO LIMA JUNIOR",
+					"departamento": "CCEN-DM",
+					"horario": "35T45",
+					"alunos": "65",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 04"
+				},
+				{
+					"id": 5357,
+					"codigo": "1107137",
+					"nome": " INTRODUCAO AO COMPUTADOR ",
+					"turma": "1",
+					"docente": "VITOR MENEGHETTI UGULINO DE ARAUJO",
+					"departamento": "CI-DI",
+					"horario": "35M45",
+					"alunos": "55",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 04"
+				},
+				{
+					"id": 5358,
+					"codigo": "1107148",
+					"nome": " LINGUAGEM DE PROGRAMAÇÃO II ",
+					"turma": "2",
+					"docente": "GLEDSON ELIAS DA SILVEIRA",
+					"departamento": "CI-DI",
+					"horario": "24M45",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 04"
+				}
+			]
+		},
+		{
+			"id": 1106,
+			"bloco": "CI",
+			"nome": "104",
+			"capacidade": 32,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5359,
+					"codigo": "GDCOC0095",
+					"nome": " ANÁLISE MULTIVARIADA E APRENDIZAGEM NÃO SUPERVISIONADO ",
+					"turma": "1",
+					"docente": "SERGIO DE CARVALHO BEZERRA",
+					"departamento": "CI-DCC",
+					"horario": "5T23",
+					"alunos": "7",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 104"
+				},
+				{
+					"id": 5373,
+					"codigo": "GDCOC0100",
+					"nome": " PESQUISA APLICADA À CIÊNCIA DE DADOS ",
+					"turma": "1",
+					"docente": "ELIZABET MARIA SPOHR DE MEDEIROS",
+					"departamento": "CI-DCC",
+					"horario": "3T234",
+					"alunos": "21",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 104"
+				},
+				{
+					"id": 5377,
+					"codigo": "1107191",
+					"nome": " INTRODUCAO A INTELIGENCIA ARTIFICIAL ",
+					"turma": "1",
+					"docente": "NATASHA CORREIA QUEIROZ LINO",
+					"departamento": "CI-DI",
+					"horario": "35M45",
+					"alunos": "34",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 104"
+				},
+				{
+					"id": 5385,
+					"codigo": "1402240",
+					"nome": "INTRODUÇÃO À FILOSOFIA",
+					"turma": "5",
+					"docente": "GARIBALDI MONTEIRO SARMENTO",
+					"departamento": "CCHLA-DF",
+					"horario": "36M23",
+					"alunos": "10",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 104"
+				},
+				{
+					"id": 5389,
+					"codigo": "1204203",
+					"nome": " ADMINISTRACAO DE SISTEMAS DE INFORMACAO ",
+					"turma": "1",
+					"docente": "CARLO GABRIEL PORTO BELLINI",
+					"departamento": "CCSA-DA",
+					"horario": "4T2345",
+					"alunos": "15",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 104"
+				},
+				{
+					"id": 5397,
+					"codigo": "GDCOC0107",
+					"nome": " INFERÊNCIA ESTATÍSTICA ",
+					"turma": "1",
+					"docente": "ROBERTO QUIRINO DO NASCIMENTO",
+					"departamento": "CI-DCC",
+					"horario": "24M23",
+					"alunos": "21",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 104"
+				}
+			]
+		},
+		{
+			"id": 1107,
+			"bloco": "CI",
+			"nome": "103",
+			"capacidade": 55,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5362,
+					"codigo": "1101172",
+					"nome": " FÍSICA APLICADA À COMPUTAÇÃO II ",
+					"turma": "1",
+					"docente": "ALEXANDRE DA SILVA ROSAS",
+					"departamento": "CCEN-DF",
+					"horario": "24T23",
+					"alunos": "32",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				},
+				{
+					"id": 5367,
+					"codigo": "GDCOC0081",
+					"nome": " TEORIA DA COMPUTAÇÃO ",
+					"turma": "1",
+					"docente": "BRUNO PETRATO BRUCK",
+					"departamento": "CI-DCC",
+					"horario": "35M45",
+					"alunos": "55",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				},
+				{
+					"id": 5375,
+					"codigo": "1103177",
+					"nome": " CÁLCULO DIFERENCIAL E INTEGRAL I ",
+					"turma": "16",
+					"docente": "ISABELLA SILVA DUARTE",
+					"departamento": "CCEN-DM",
+					"horario": "24M45",
+					"alunos": "56",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				},
+				{
+					"id": 5382,
+					"codigo": "1103118",
+					"nome": " CÁLCULO VETORIAL E GEOMETRIA ANALÍTICA ",
+					"turma": "16",
+					"docente": "JOSE CARLOS DE ARAUJO",
+					"departamento": "CCEN-DM",
+					"horario": "35T23",
+					"alunos": "50",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				},
+				{
+					"id": 5384,
+					"codigo": "1107248",
+					"nome": " INTROD À ENGENHARIA DE COMPUTAÇÃO ",
+					"turma": "1",
+					"docente": "ANAND SUBRAMANIAN",
+					"departamento": "CI-DSC",
+					"horario": "24T45",
+					"alunos": "53",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				},
+				{
+					"id": 5386,
+					"codigo": "1107201",
+					"nome": " METODOLOGIA DO TRABALHO CIENTIFICO ",
+					"turma": "1",
+					"docente": "GUSTAVO HENRIQUE MATOS BEZERRA MOTTA",
+					"departamento": "CI-DI",
+					"horario": "6M345",
+					"alunos": "42",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				},
+				{
+					"id": 5387,
+					"codigo": "1107055",
+					"nome": "ESTRUTURA DE DADOS E COMPLEXIDADE DE ALGORITMOS",
+					"turma": "1",
+					"docente": "BRUNO BRUCK e TEOBALDO",
+					"departamento": "PPG-I",
+					"horario": "6T23",
+					"alunos": "11",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 1
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				},
+				{
+					"id": 5394,
+					"codigo": "GDSCO0064",
+					"nome": " SINAIS E SISTEMAS DINÂMICOS ",
+					"turma": "1",
+					"docente": "LUCIANO SALES BARROS",
+					"departamento": "CI-DSC",
+					"horario": "24M23",
+					"alunos": "43",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				},
+				{
+					"id": 5398,
+					"codigo": "GDSCO0024",
+					"nome": " ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO II ",
+					"turma": "1",
+					"docente": "LUCIANO SALES BARROS",
+					"departamento": "CI-DSC",
+					"horario": "35M23",
+					"alunos": "48",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 103"
+				}
+			]
+		},
+		{
+			"id": 1108,
+			"bloco": "LIEPE",
+			"nome": "07",
+			"capacidade": 65,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5360,
+					"codigo": "1107259",
+					"nome": " MATEMÁTICA DISCRETA ",
+					"turma": "1",
+					"docente": "KELY DIANA VILLACORTA VILLACORTA",
+					"departamento": "CI-DCC",
+					"horario": "24T23",
+					"alunos": "40",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 07"
+				},
+				{
+					"id": 5361,
+					"codigo": "1107184",
+					"nome": " ESPECIFICACAO DE REQUISITOS DE SOFTWARE ",
+					"turma": "1",
+					"docente": "DANIELLE ROUSY DIAS RICARTE",
+					"departamento": "CI-DI",
+					"horario": "24M23",
+					"alunos": "57",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 07"
+				},
+				{
+					"id": 5372,
+					"codigo": "GDSCO0068",
+					"nome": " SISTEMAS OPERACIONAIS I ",
+					"turma": "1",
+					"docente": "FERNANDO MENEZES MATOS",
+					"departamento": "CI-DSC",
+					"horario": "35T23",
+					"alunos": "48",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 07"
+				},
+				{
+					"id": 5374,
+					"codigo": "GDSCO0054",
+					"nome": " INTRODUÇÃO À TEORIA DA INFORMAÇÃO ",
+					"turma": "1",
+					"docente": "DERZU OMAIA",
+					"departamento": "CI-DSC",
+					"horario": "35M45",
+					"alunos": "59",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 07"
+				},
+				{
+					"id": 5379,
+					"codigo": "1103178",
+					"nome": " CÁLCULO DIFERENCIAL E INTEGRAL II ",
+					"turma": "15",
+					"docente": "RENATHA BATISTA DOS SANTOS",
+					"departamento": "CCEN-DM",
+					"horario": "24T45",
+					"alunos": "65",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 07"
+				},
+				{
+					"id": 5390,
+					"codigo": "GDINF0106",
+					"nome": " COMPUTADORES E SOCIEDADE ",
+					"turma": "1",
+					"docente": "ED PORTO BEZERRA",
+					"departamento": "CI-DI",
+					"horario": "24M45",
+					"alunos": "53",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 07"
+				}
+			]
+		},
+		{
+			"id": 1109,
+			"bloco": "CI",
+			"nome": "105",
+			"capacidade": 36,
+			"tipo": "Laboratório",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5363,
+					"codigo": "GDCOC0088",
+					"nome": " PROGRAMAÇÃO ESTRUTURADA ",
+					"turma": "1",
+					"docente": "VITOR MENEGHETTI UGULINO DE ARAUJO",
+					"departamento": "CI-DCC",
+					"horario": "35T23",
+					"alunos": "32",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 105"
+				},
+				{
+					"id": 5364,
+					"codigo": "INFO00100",
+					"nome": "APRENDIZAGEM DE MÁQUINA",
+					"turma": "1",
+					"docente": "LEANDRO DE SOUZA e THAIS GAUDENCIO",
+					"departamento": "PPG-I",
+					"horario": "24T56",
+					"alunos": "12",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 105"
+				},
+				{
+					"id": 5368,
+					"codigo": "GDCOC0096",
+					"nome": " VISUALIZAÇÃO DE DADOS ",
+					"turma": "1",
+					"docente": "GUSTAVO CHARLES PEIXOTO DE OLIVEIRA",
+					"departamento": "CI-DCC",
+					"horario": "35M23",
+					"alunos": "25",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 1
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 105"
+				},
+				{
+					"id": 5376,
+					"codigo": "GDINF0133",
+					"nome": " PROCESSAMENTO DE LINGUAGEM NATURAL ",
+					"turma": "2",
+					"docente": "YURI DE ALMEIDA MALHEIROS BARBOSA",
+					"departamento": "CI-DI",
+					"horario": "35M45",
+					"alunos": "21",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 105"
+				},
+				{
+					"id": 5381,
+					"codigo": "GDCOC0091",
+					"nome": " TEORIA DOS GRAFOS APLICADA ",
+					"turma": "1",
+					"docente": "TEOBALDO LEITE BULHÕES JUNIOR",
+					"departamento": "CI-DCC",
+					"horario": "24M45",
+					"alunos": "19",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 1
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 105"
+				},
+				{
+					"id": 5392,
+					"codigo": "GDINF0102",
+					"nome": " LABORATORIO DE LINGUAGEM DE PROGRAMAÇÃO I ",
+					"turma": "1",
+					"docente": "DERZU OMAIA",
+					"departamento": "CI-DI",
+					"horario": "24T23",
+					"alunos": "49",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 105"
+				}
+			]
+		},
+		{
+			"id": 1110,
+			"bloco": "CI",
+			"nome": "308",
+			"capacidade": 29,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5365,
+					"codigo": "GDSCO0081",
+					"nome": " SISTEMAS EMBARCADOS I ",
+					"turma": "1",
+					"docente": "ROMULO CALADO PANTALEAO CAMARA",
+					"departamento": "CI-DSC",
+					"horario": "35T23",
+					"alunos": "7",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 308"
+				},
+				{
+					"id": 5366,
+					"codigo": "GDSCO0043",
+					"nome": " CONSTRUÇÃO DE COMPILADORES I ",
+					"turma": "1",
+					"docente": "MAELSO BRUNO PACHECO NUNES PEREIRA",
+					"departamento": "CI-DSC",
+					"horario": "24M45",
+					"alunos": "16",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 308"
+				},
+				{
+					"id": 5383,
+					"codigo": "GDCOC0102",
+					"nome": " TEORIA DAS PROBABILIDADES ",
+					"turma": "1",
+					"docente": "ROBERTO QUIRINO DO NASCIMENTO",
+					"departamento": "CI-DCC",
+					"horario": "24T23",
+					"alunos": "27",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 308"
+				},
+				{
+					"id": 5391,
+					"codigo": "GDCOC0094",
+					"nome": " APRENDIZADO PROFUNDO ",
+					"turma": "2",
+					"docente": "LEONARDO VIDAL BATISTA",
+					"departamento": "CI-DCC",
+					"horario": "35T45",
+					"alunos": "10",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 308"
+				},
+				{
+					"id": 5393,
+					"codigo": "5102006",
+					"nome": " CÁLCULO  DAS PROBABILIDADES I ",
+					"turma": "1",
+					"docente": "KELY DIANA VILLACORTA VILLACORTA",
+					"departamento": "CI-DCC",
+					"horario": "35M45",
+					"alunos": "13",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 308"
+				},
+				{
+					"id": 5395,
+					"codigo": "1107120",
+					"nome": " COMPUTADORES E SOCIEDADE ",
+					"turma": "1",
+					"docente": "ED PORTO BEZERRA",
+					"departamento": "CI-DI",
+					"horario": "5M23",
+					"alunos": "29",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 308"
+				},
+				{
+					"id": 5396,
+					"codigo": "1107128",
+					"nome": " ENGENHARIA DE SOFTWARE ",
+					"turma": "1",
+					"docente": "GLEDSON ELIAS DA SILVEIRA",
+					"departamento": "CI-DI",
+					"horario": "24M23",
+					"alunos": "19",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 308"
+				}
+			]
+		},
+		{
+			"id": 1111,
+			"bloco": "CTDR",
+			"nome": "C108",
+			"capacidade": 90,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5370,
+					"codigo": "1107205",
+					"nome": " PARADIGMAS DE LING DE PROGRAMAÇÃO ",
+					"turma": "1",
+					"docente": "GUSTAVO HENRIQUE MATOS BEZERRA MOTTA",
+					"departamento": "CI-DI",
+					"horario": "35M45",
+					"alunos": "57",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 1
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CTDR C108"
+				},
+				{
+					"id": 5378,
+					"codigo": "GDCOC0104",
+					"nome": " INTRODUÇÃO A INTELIGÊNCIA ARTIFICIAL ",
+					"turma": "2",
+					"docente": "ANDREI DE ARAUJO FORMIGA",
+					"departamento": "CI-DCC",
+					"horario": "24M45",
+					"alunos": "35",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CTDR C108"
+				},
+				{
+					"id": 5380,
+					"codigo": "1103180",
+					"nome": " SÉRIES E EQUAÇÕES DIFERENCIAIS ORDINÁRIAS ",
+					"turma": "8",
+					"docente": "PEDRO ANTONIO GOMEZ VENEGAS",
+					"departamento": "CCEN-DM",
+					"horario": "35M23",
+					"alunos": "50",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CTDR C108"
+				}
+			]
+		},
+		{
+			"id": 1112,
+			"bloco": "CI",
+			"nome": "306",
+			"capacidade": 27,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5369,
+					"codigo": "1402240",
+					"nome": " INTRODUÇÃO À FILOSOFIA ",
+					"turma": "6",
+					"docente": "BETTO LEITE DA SILVA",
+					"departamento": "CCHLA-DF",
+					"horario": "36M23",
+					"alunos": "10",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 306"
+				},
+				{
+					"id": 5371,
+					"codigo": "GDSCO0065",
+					"nome": " SISTEMAS E CONTROLE DE AUTOMAÇÃO ",
+					"turma": "1",
+					"docente": "TIAGO PEREIRA DO NASCIMENTO",
+					"departamento": "CI-DSC",
+					"horario": "35M45",
+					"alunos": "16",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 306"
+				},
+				{
+					"id": 5388,
+					"codigo": "GDSCO0023",
+					"nome": " ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO I ",
+					"turma": "2",
+					"docente": "MARDSON FREITAS DE AMORIM",
+					"departamento": "CI-DSC",
+					"horario": "35T45",
+					"alunos": "30",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 306"
+				}
+			]
+		},
+		{
+			"id": 1113,
+			"bloco": "T",
+			"nome": "07",
+			"capacidade": 57,
+			"tipo": "Laboratório",
+			"acessivel": true,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5399,
+					"codigo": "1107137",
+					"nome": " INTRODUCAO AO COMPUTADOR ",
+					"turma": "2",
+					"docente": "YUSKA PAOLA COSTA AGUIAR",
+					"departamento": "CI-DI",
+					"horario": "35M45",
+					"alunos": "50",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				},
+				{
+					"id": 5400,
+					"codigo": "1107136",
+					"nome": " INTRODUÇÃO A PROGRAMAÇÃO ",
+					"turma": "6",
+					"docente": "BRUNO JEFFERSON DE SOUSA PESSOA",
+					"departamento": "CI-DI",
+					"horario": "2M45",
+					"alunos": "45",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				},
+				{
+					"id": 5401,
+					"codigo": "1107148",
+					"nome": " LINGUAGEM DE PROGRAMAÇÃO II ",
+					"turma": "1",
+					"docente": "CARLOS EDUARDO COELHO FREIRE BATISTA",
+					"departamento": "CI-DI",
+					"horario": "4M45",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 2
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				},
+				{
+					"id": 5402,
+					"codigo": "1107136",
+					"nome": " INTRODUÇÃO A PROGRAMAÇÃO ",
+					"turma": "5",
+					"docente": "GIORGIA DE OLIVEIRA MATTOS",
+					"departamento": "CI-DI",
+					"horario": "3M23",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				},
+				{
+					"id": 5403,
+					"codigo": "1107202",
+					"nome": " METODOS DE PROJETO DE SOFTWARE ",
+					"turma": "1",
+					"docente": "RAONI KULESZA",
+					"departamento": "CI-DI",
+					"horario": "35T45",
+					"alunos": "55",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				},
+				{
+					"id": 5404,
+					"codigo": "1107206",
+					"nome": " PESQUISA APLICADA A COMPUTACAO ",
+					"turma": "3",
+					"docente": "JOSILENE AIRES MOREIRA",
+					"departamento": "CI-DI",
+					"horario": "6M345",
+					"alunos": "43",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				},
+				{
+					"id": 5405,
+					"codigo": "GDCOC0092",
+					"nome": " APRENDIZAGEM DE MÁQUINA ",
+					"turma": "1",
+					"docente": "BRUNO JEFFERSON DE SOUSA PESSOA",
+					"departamento": "CI-DCC",
+					"horario": "35T23",
+					"alunos": "28",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				},
+				{
+					"id": 5406,
+					"codigo": "GDINF0101",
+					"nome": " LABORATÓRIO DE INTRODUÇÃO A PROGRAMAÇÃO ",
+					"turma": "1",
+					"docente": "LINCOLN DAVID NERY E SILVA",
+					"departamento": "CI-DI",
+					"horario": "24T23",
+					"alunos": "57",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				},
+				{
+					"id": 5407,
+					"codigo": "1107180",
+					"nome": " BANCO DE DADOS I ",
+					"turma": "1",
+					"docente": "MARCELO IURY DE SOUSA OLIVEIRA",
+					"departamento": "CI-DI",
+					"horario": "5M23",
+					"alunos": "66",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "T 07"
+				}
+			]
+		},
+		{
+			"id": 1114,
+			"bloco": "CI",
+			"nome": "107",
+			"capacidade": 30,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5408,
+					"codigo": "5102009",
+					"nome": " ALGEBRA LINEAR COMPUTACIONAL ",
+					"turma": "1",
+					"docente": "FELIPE ANTONIO GARCIA MORENO",
+					"departamento": "CI-DCC",
+					"horario": "24M45",
+					"alunos": "19",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 107"
+				},
+				{
+					"id": 5409,
+					"codigo": "1107055",
+					"nome": "ESTRUTURA DE DADOS E COMPLEXIDADE DE ALGORITMOS",
+					"turma": "1",
+					"docente": "BRUNO BRUCK e TEOBALDO",
+					"departamento": "PPG-I",
+					"horario": "4M23",
+					"alunos": "11",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 1
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 107"
+				},
+				{
+					"id": 5410,
+					"codigo": "INFO00076",
+					"nome": "SISTEMAS EMBARCADOS APLICADOS",
+					"turma": "1",
+					"docente": "TIAGO NASCIMENTO e ALISSON DE BRITO",
+					"departamento": "PPG-I",
+					"horario": "35M23",
+					"alunos": "11",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 107"
+				},
+				{
+					"id": 5411,
+					"codigo": "GDSCO0026",
+					"nome": " ELETRONICA APLICADA I ",
+					"turma": "1",
+					"docente": "RUY ALBERTO PISANI ALTAFIM",
+					"departamento": "CI-DSC",
+					"horario": "35T23",
+					"alunos": "28",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 107"
+				},
+				{
+					"id": 5412,
+					"codigo": "5101001",
+					"nome": " AVALIAÇÃO E DESEMPENHO DE SISTEMAS OPERACIONAIS ",
+					"turma": "1",
+					"docente": "IGUATEMI EDUARDO DA FONSECA",
+					"departamento": "CI-DSC",
+					"horario": "24T23",
+					"alunos": "26",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 107"
+				},
+				{
+					"id": 5413,
+					"codigo": "INFO00134",
+					"nome": "TÓPICOS ESPECIAIS I",
+					"turma": "1",
+					"docente": "LILIANE DOS SANTOS MACHADO (60h)",
+					"departamento": "PPG-I",
+					"horario": "35M45",
+					"alunos": "6",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 107"
+				}
+			]
+		},
+		{
+			"id": 1115,
+			"bloco": "CI",
+			"nome": "101",
+			"capacidade": 37,
+			"tipo": "Laboratório",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5414,
+					"codigo": "GDCOC0089",
+					"nome": " INTRODUÇÃO À CIÊNCIA DE DADOS ",
+					"turma": "1",
+					"docente": "YURI DE ALMEIDA MALHEIROS BARBOSA",
+					"departamento": "CI-DCC",
+					"horario": "24M45",
+					"alunos": "38",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 101"
+				},
+				{
+					"id": 5415,
+					"codigo": "GDCOC0101",
+					"nome": " PROGRAMAÇÃO ORIENTADA A OBJETOS ",
+					"turma": "1",
+					"docente": "CARLOS EDUARDO COELHO FREIRE BATISTA",
+					"departamento": "CI-DCC",
+					"horario": "35M45",
+					"alunos": "35",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 101"
+				},
+				{
+					"id": 5416,
+					"codigo": "1107215",
+					"nome": " TOP ESPECIAIS EM ENG DE SOFTWARE ",
+					"turma": "1",
+					"docente": "RAONI KULESZA",
+					"departamento": "CI-DI",
+					"horario": "35T23",
+					"alunos": "29",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 101"
+				}
+			]
+		},
+		{
+			"id": 1116,
+			"bloco": "CI",
+			"nome": "309",
+			"capacidade": 15,
+			"tipo": "Laboratório",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": []
+		},
+		{
+			"id": 1117,
+			"bloco": "LIEPE",
+			"nome": "05-06",
+			"capacidade": 70,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5417,
+					"codigo": "1103232",
+					"nome": " CÁLCULO DIFERENCIAL E INTEGRAL III ",
+					"turma": "10",
+					"docente": "MILTON DE LACERDA OLIVEIRA",
+					"departamento": "CCEN-DM",
+					"horario": "24T45",
+					"alunos": "59",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 05-06"
+				},
+				{
+					"id": 5418,
+					"codigo": "GDCOC0078",
+					"nome": " LINGUAGENS FORMAIS E AUTÔMATOS ",
+					"turma": "1",
+					"docente": "ANDREI DE ARAUJO FORMIGA",
+					"departamento": "CI-DCC",
+					"horario": "35T45",
+					"alunos": "38",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 05-06"
+				},
+				{
+					"id": 5419,
+					"codigo": "1101171",
+					"nome": " FÍSICA APLICADA À COMPUTAÇÃO I ",
+					"turma": "1",
+					"docente": "ALEXANDRE DA SILVA ROSAS",
+					"departamento": "CCEN-DF",
+					"horario": "24M23",
+					"alunos": "90",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 05-06"
+				},
+				{
+					"id": 5420,
+					"codigo": "1107186",
+					"nome": " ESTRUTURA DE DADOS ",
+					"turma": "3",
+					"docente": "GILBERTO FARIAS DE SOUSA FILHO",
+					"departamento": "CI-DI",
+					"horario": "35M23",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 05-06"
+				},
+				{
+					"id": 5421,
+					"codigo": "GDCOC0072",
+					"nome": " CALCULO NUMERICO ",
+					"turma": "1",
+					"docente": "GUSTAVO CHARLES PEIXOTO DE OLIVEIRA",
+					"departamento": "CI-DCC",
+					"horario": "35M45",
+					"alunos": "43",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 05-06"
+				},
+				{
+					"id": 5422,
+					"codigo": "GDSCO0055",
+					"nome": " INTRODUÇÃO AO PROCESSAMENTO DIGITAL DE IMAGENS ",
+					"turma": "1",
+					"docente": "LEONARDO VIDAL BATISTA",
+					"departamento": "CI-DSC",
+					"horario": "24M45",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE 05-06"
+				}
+			]
+		},
+		{
+			"id": 1118,
+			"bloco": "CI",
+			"nome": "109",
+			"capacidade": 27,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5423,
+					"codigo": "GDSCO0027",
+					"nome": " ELETRONICA APLICADA II ",
+					"turma": "1",
+					"docente": "HUGO LEONARDO DAVI DE SOUZA CAVALCANTE",
+					"departamento": "CI-DSC",
+					"horario": "24M45",
+					"alunos": "24",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 109"
+				},
+				{
+					"id": 5425,
+					"codigo": "GDSCO0023",
+					"nome": " ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO I ",
+					"turma": "1",
+					"docente": "MARDSON FREITAS DE AMORIM",
+					"departamento": "CI-DSC",
+					"horario": "35M23",
+					"alunos": "30",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 109"
+				}
+			]
+		},
+		{
+			"id": 1119,
+			"bloco": "CI",
+			"nome": "Auditório",
+			"capacidade": 60,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5426,
+					"codigo": "GDSCO0047",
+					"nome": " INTERAÇÃO HOMEM MÁQUINA ",
+					"turma": "1",
+					"docente": "VALDECIR BECKER",
+					"departamento": "CI-DSC",
+					"horario": "35T23",
+					"alunos": "58",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI Auditório"
+				},
+				{
+					"id": 5427,
+					"codigo": "INFO00006",
+					"nome": "SEMINÁRIOS",
+					"turma": "1",
+					"docente": "LILIANE DOS SANTOS MACHADO ",
+					"departamento": "PPG-I",
+					"horario": "6M45",
+					"alunos": "16",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI Auditório"
+				},
+				{
+					"id": 5428,
+					"codigo": "1107186",
+					"nome": " ESTRUTURA DE DADOS ",
+					"turma": "1",
+					"docente": "LILIANE DOS SANTOS MACHADO",
+					"departamento": "CI-DI",
+					"horario": "35M23",
+					"alunos": "52",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI Auditório"
+				},
+				{
+					"id": 5429,
+					"codigo": "1107201",
+					"nome": " METODOLOGIA DO TRABALHO CIENTIFICO ",
+					"turma": "3",
+					"docente": "ELIZABET MARIA SPOHR DE MEDEIROS",
+					"departamento": "CI-DI",
+					"horario": "2T234",
+					"alunos": "41",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI Auditório"
+				}
+			]
+		},
+		{
+			"id": 1120,
+			"bloco": "CI",
+			"nome": "304",
+			"capacidade": 70,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5424,
+					"codigo": "5102007",
+					"nome": " PESQUISA OPERACIONAL ",
+					"turma": "1",
+					"docente": "TEOBALDO LEITE BULHÕES JUNIOR",
+					"departamento": "CI-DCC",
+					"horario": "24T23",
+					"alunos": "55",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5430,
+					"codigo": "GDSCO0035",
+					"nome": " ARQUITETURA DE COMPUTADORES ",
+					"turma": "1",
+					"docente": "EWERTON MONTEIRO SALVADOR",
+					"departamento": "CI-DSC",
+					"horario": "35M45",
+					"alunos": "42",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5431,
+					"codigo": "1107206",
+					"nome": " PESQUISA APLICADA A COMPUTACAO ",
+					"turma": "1",
+					"docente": "NATASHA CORREIA QUEIROZ LINO",
+					"departamento": "CI-DI",
+					"horario": "6M345",
+					"alunos": "50",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5432,
+					"codigo": "GDSCO0053",
+					"nome": " INTRODUÇÃO À MICROELETRÔNICA ",
+					"turma": "1",
+					"docente": "HUGO LEONARDO DAVI DE SOUZA CAVALCANTE",
+					"departamento": "CI-DSC",
+					"horario": "35T23",
+					"alunos": "21",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5433,
+					"codigo": "1107136",
+					"nome": " INTRODUÇÃO A PROGRAMAÇÃO ",
+					"turma": "6",
+					"docente": "BRUNO JEFFERSON DE SOUSA PESSOA",
+					"departamento": "CI-DI",
+					"horario": "4M45",
+					"alunos": "45",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5434,
+					"codigo": "1103178",
+					"nome": " CÁLCULO DIFERENCIAL E INTEGRAL II ",
+					"turma": "14",
+					"docente": "ISABELLA SILVA DUARTE",
+					"departamento": "CCEN-DM",
+					"horario": "24T45",
+					"alunos": "65",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5435,
+					"codigo": "1103118",
+					"nome": " CÁLCULO VETORIAL E GEOMETRIA ANALÍTICA ",
+					"turma": "14",
+					"docente": "JOSE CARLOS DE ARAUJO",
+					"departamento": "CCEN-DM",
+					"horario": "35M23",
+					"alunos": "45",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5436,
+					"codigo": "GDSCO0073",
+					"nome": " TÓPICOS ESPECIAIS EM INTERAÇÃO HOMEM",
+					"turma": "1",
+					"docente": "VALDECIR BECKER",
+					"departamento": "CI-DSC",
+					"horario": "6T2345",
+					"alunos": "20",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5437,
+					"codigo": "GDCOC0076",
+					"nome": " ANÁLISE E PROJETO DE ALGORITMOS ",
+					"turma": "1",
+					"docente": "BRUNO PETRATO BRUCK",
+					"departamento": "CI-DCC",
+					"horario": "35T45",
+					"alunos": "70",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5438,
+					"codigo": "1107148",
+					"nome": " LINGUAGEM DE PROGRAMAÇÃO II ",
+					"turma": "1",
+					"docente": "CARLOS EDUARDO COELHO FREIRE BATISTA",
+					"departamento": "CI-DI",
+					"horario": "2M45",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 2
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				},
+				{
+					"id": 5439,
+					"codigo": "GDCOC0090",
+					"nome": " OTIMIZAÇÃO NÃO",
+					"turma": "1",
+					"docente": "FELIPE ANTONIO GARCIA MORENO",
+					"departamento": "CI-DCC",
+					"horario": "24M23",
+					"alunos": "25",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 304"
+				}
+			]
+		},
+		{
+			"id": 1121,
+			"bloco": "LIEPE",
+			"nome": "Lab Hardware",
+			"capacidade": 36,
+			"tipo": "Lab Hardware",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5440,
+					"codigo": "GDSCO0022",
+					"nome": " CIRCUITOS LOGICOS II ",
+					"turma": "1",
+					"docente": "VERONICA MARIA LIMA SILVA",
+					"departamento": "CI-DSC",
+					"horario": "24T23",
+					"alunos": "36",
+					"preferencias": [
+						{
+							"name": "Lab Hardware",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE Lab Hardware"
+				},
+				{
+					"id": 5444,
+					"codigo": "5101003",
+					"nome": " MICROCONTROLADORES ",
+					"turma": "1",
+					"docente": "MARDSON FREITAS DE AMORIM",
+					"departamento": "CI-DSC",
+					"horario": "35M45",
+					"alunos": "12",
+					"preferencias": [
+						{
+							"name": "Lab Hardware",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE Lab Hardware"
+				},
+				{
+					"id": 5445,
+					"codigo": "GDSCO0040",
+					"nome": " CONCEPÇÃO ESTRUTURADA DE CIRCUITOS INTEGRADOS ",
+					"turma": "1",
+					"docente": "ROMULO CALADO PANTALEAO CAMARA",
+					"departamento": "CI-DSC",
+					"horario": "24M23",
+					"alunos": "9",
+					"preferencias": [
+						{
+							"name": "Lab Hardware",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "LIEPE Lab Hardware"
+				}
+			]
+		},
+		{
+			"id": 1122,
+			"bloco": "CI",
+			"nome": "106",
+			"capacidade": 51,
+			"tipo": "Laboratório",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5441,
+					"codigo": "GDSCO0039",
+					"nome": " CIRCUITOS LÓGICOS ",
+					"turma": "1",
+					"docente": "JOSE ANTONIO GOMES DE LIMA",
+					"departamento": "CI-DSC",
+					"horario": "246T23",
+					"alunos": "51",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 106"
+				},
+				{
+					"id": 5442,
+					"codigo": "1107204",
+					"nome": " ORDENACAO E RECUPERACAO DE DADOS ",
+					"turma": "1",
+					"docente": "LEANDRO CARLOS DE SOUZA",
+					"departamento": "CI-DI",
+					"horario": "35T23",
+					"alunos": "51",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 106"
+				},
+				{
+					"id": 5446,
+					"codigo": "GDSCO0021",
+					"nome": " CIRCUITOS LOGICOS I ",
+					"turma": "1",
+					"docente": "JOSE ANTONIO GOMES DE LIMA",
+					"departamento": "CI-DSC",
+					"horario": "24M45",
+					"alunos": "45",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 106"
+				},
+				{
+					"id": 5447,
+					"codigo": "1107147",
+					"nome": " LINGUAGEM DE PROGRAMAÇÃO I ",
+					"turma": "1",
+					"docente": "DANIELLE ROUSY DIAS RICARTE",
+					"departamento": "CI-DI",
+					"horario": "35M23",
+					"alunos": "47",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 106"
+				}
+			]
+		},
+		{
+			"id": 1123,
+			"bloco": "CI",
+			"nome": "310",
+			"capacidade": 15,
+			"tipo": "Laboratório",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": []
+		},
+		{
+			"id": 1124,
+			"bloco": "CI",
+			"nome": "307",
+			"capacidade": 29,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5443,
+					"codigo": "GDSCO0037",
+					"nome": " ARQUITETURA DE COMPUTADORES II ",
+					"turma": "1",
+					"docente": "ALISSON VASCONCELOS DE BRITO",
+					"departamento": "CI-DSC",
+					"horario": "24M45",
+					"alunos": "27",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 307"
+				},
+				{
+					"id": 5448,
+					"codigo": "GDCOC0093",
+					"nome": " MÉTODOS MATEMÁTICOS I ",
+					"turma": "1",
+					"docente": "APARECIDO JESUINO DE SOUZA",
+					"departamento": "CI-DCC",
+					"horario": "35M45",
+					"alunos": "9",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 307"
+				},
+				{
+					"id": 5449,
+					"codigo": "GDSCO0028",
+					"nome": " ROBOTICA ",
+					"turma": "2",
+					"docente": "TIAGO PEREIRA DO NASCIMENTO",
+					"departamento": "CI-DSC",
+					"horario": "35T23",
+					"alunos": "21",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 307"
+				},
+				{
+					"id": 5450,
+					"codigo": "GDCOC0103",
+					"nome": " METÓDOS NUMÉRICOS I ",
+					"turma": "1",
+					"docente": "ANA PAULA PINTADO WYSE",
+					"departamento": "CI-DCC",
+					"horario": "24T23",
+					"alunos": "25",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 307"
+				},
+				{
+					"id": 5451,
+					"codigo": "GDSCO0032",
+					"nome": " REDES SEM FIO ",
+					"turma": "1",
+					"docente": "FERNANDO MENEZES MATOS",
+					"departamento": "CI-DSC",
+					"horario": "35M23",
+					"alunos": "24",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 307"
+				},
+				{
+					"id": 5452,
+					"codigo": "GDSCO0052",
+					"nome": " INTRODUÇÃO À MECÂNICA DOS FLUÍDOS ",
+					"turma": "1",
+					"docente": "JAIRO ROCHA DE FARIA",
+					"departamento": "CI-DSC",
+					"horario": "4M23",
+					"alunos": "28",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 307"
+				}
+			]
+		},
+		{
+			"id": 1125,
+			"bloco": "CI",
+			"nome": "311",
+			"capacidade": 30,
+			"tipo": "Sala",
+			"acessivel": false,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5459,
+					"codigo": "GDSCO0059",
+					"nome": " MECÂNICA PARA ENGENHARIA DA COMPUTAÇÃO ",
+					"turma": "1",
+					"docente": "JAIRO ROCHA DE FARIA",
+					"departamento": "CI-DSC",
+					"horario": "24M45",
+					"alunos": "32",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 311"
+				},
+				{
+					"id": 5462,
+					"codigo": "GDCOC0114",
+					"nome": " SÉRIES TEMPORAIS ",
+					"turma": "1",
+					"docente": "MOISES DANTAS DOS SANTOS",
+					"departamento": "CI-DCC",
+					"horario": "24M23",
+					"alunos": "9",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 311"
+				},
+				{
+					"id": 5463,
+					"codigo": "GDCOC0105",
+					"nome": " EQUAÇÕES DIFERENCIAIS ORDINÁRIAS ",
+					"turma": "1",
+					"docente": "ANA PAULA PINTADO WYSE",
+					"departamento": "CI-DCC",
+					"horario": "35M45",
+					"alunos": "26",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "CI 311"
+				}
+			]
+		},
+		{
+			"id": 1126,
+			"bloco": "SB",
+			"nome": "01",
+			"capacidade": 70,
+			"tipo": "Sala",
+			"acessivel": true,
+			"preferencias": [
+				{
+					"name": "CI-DCC",
+					"value": 1
+				},
+				{
+					"name": "CI-DSC",
+					"value": 1
+				},
+				{
+					"name": "CI-DI",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DM",
+					"value": 1
+				},
+				{
+					"name": "CCSA-DA",
+					"value": 1
+				},
+				{
+					"name": "CCEN-DF",
+					"value": 1
+				},
+				{
+					"name": "CCHLA-DF",
+					"value": 1
+				}
+			],
+			"execao": "undefined",
+			"classes": [
+				{
+					"id": 5453,
+					"codigo": "GDINF0107",
+					"nome": " INTRODUÇÃO A PROGRAMAÇÃO PARA ENGENHARIA DE COMPUTAÇÃO ",
+					"turma": "1",
+					"docente": "LINCOLN DAVID NERY E SILVA",
+					"departamento": "CI-DI",
+					"horario": "24M45",
+					"alunos": "58",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				},
+				{
+					"id": 5454,
+					"codigo": "1107180",
+					"nome": " BANCO DE DADOS I ",
+					"turma": "1",
+					"docente": "MARCELO IURY DE SOUSA OLIVEIRA",
+					"departamento": "CI-DI",
+					"horario": "3M23",
+					"alunos": "66",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				},
+				{
+					"id": 5455,
+					"codigo": "GDCOC0079",
+					"nome": " LÓGICA APLICADA À COMPUTAÇÃO ",
+					"turma": "2",
+					"docente": "TATIANA ARAUJO SIMOES",
+					"departamento": "CI-DCC",
+					"horario": "35T23",
+					"alunos": "70",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				},
+				{
+					"id": 5456,
+					"codigo": "GDSCO0051",
+					"nome": " INTRODUÇÃO À COMPUTAÇÃO GRÁFICA ",
+					"turma": "1",
+					"docente": "MAELSO BRUNO PACHECO NUNES PEREIRA",
+					"departamento": "CI-DSC",
+					"horario": "24M23",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				},
+				{
+					"id": 5457,
+					"codigo": "1107136",
+					"nome": " INTRODUÇÃO A PROGRAMAÇÃO ",
+					"turma": "5",
+					"docente": "GIORGIA DE OLIVEIRA MATTOS",
+					"departamento": "CI-DI",
+					"horario": "5M23",
+					"alunos": "60",
+					"preferencias": [
+						{
+							"name": "Laboratório",
+							"value": 10
+						},
+						{
+							"name": "Sala",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				},
+				{
+					"id": 5458,
+					"codigo": "GDINF0108",
+					"nome": " LINGUAGEM DE PROGRAMAÇÃO I ",
+					"turma": "1",
+					"docente": "MARCELO IURY DE SOUSA OLIVEIRA",
+					"departamento": "CI-DI",
+					"horario": "35M45",
+					"alunos": "49",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				},
+				{
+					"id": 5460,
+					"codigo": "GDSCO0025",
+					"nome": " MATERIAIS PARA MICRO E NANO TECNOLOGIA ",
+					"turma": "1",
+					"docente": "RUY ALBERTO PISANI ALTAFIM",
+					"departamento": "CI-DSC",
+					"horario": "6M2345",
+					"alunos": "55",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				},
+				{
+					"id": 5461,
+					"codigo": "GDSCO0036",
+					"nome": " ARQUITETURA DE COMPUTADORES I ",
+					"turma": "1",
+					"docente": "EWERTON MONTEIRO SALVADOR",
+					"departamento": "CI-DSC",
+					"horario": "24T23",
+					"alunos": "43",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				},
+				{
+					"id": 5464,
+					"codigo": "1107128",
+					"nome": " ENGENHARIA DE SOFTWARE ",
+					"turma": "2",
+					"docente": "YUSKA PAOLA COSTA AGUIAR",
+					"departamento": "CI-DI",
+					"horario": "24T45",
+					"alunos": "47",
+					"preferencias": [
+						{
+							"name": "Sala",
+							"value": 10
+						},
+						{
+							"name": "Laboratório",
+							"value": 0
+						},
+						{
+							"name": "Lab Hardware",
+							"value": 0
+						}
+					],
+					"pcd": false,
+					"pre_alocacao": "SB 01"
+				}
+			]
+		}
+	]
+}
