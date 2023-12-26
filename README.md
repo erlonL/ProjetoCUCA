@@ -4,11 +4,11 @@
 
 ## Integrantes
 
-- Erlon Lacerda Avelino (20220071286)
-- Maria Eduarda Bandeira Hora de Vasconcelos (20220007230)
-- Thiago Rodrigues Cruz Justino (20220007276)
-- Gisele de Freitas Menezes (20220055765)
-- Daniele Vitoria Morais Silva (20220007392)
+- Erlon Lacerda
+- Maria Eduarda
+- Thiago Rodrigues
+- Gisele Menezes
+- Daniele Morais
 
 ## O que é o Projeto CUCA?
 Classroom Utilization and Capacity Allocation tem como base o sistema SACI da UFPB, é baseado em um **algoritmo de otimização** feito para **alocação de salas** e aulas para turmas, a fim de diminuir intercorrências e comportar a demanda do Centro.
